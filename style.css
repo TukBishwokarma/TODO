@@ -1,0 +1,42 @@
+body{
+    font-family: arial,sans-serif;
+
+}
+.container{
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    color: rgb(78, 99, 69);
+    font-size: 24px;
+    padding: 12px;
+
+}
+h1{
+    color: #333;
+}
+ul{
+    list-style: none;
+    padding:0;
+}
+li{
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+    background-color: azure;
+}
+#taskInput{
+    font-size: 15px;
+
+}
+button{
+    border-radius: 12px;
+    color: aqua;
+    text-decoration: double;
+    font-size: 18px;
+}
+button:hover{
+    cursor: pointer;
+}
+button:active{
+    color: blueviolet;
+}
